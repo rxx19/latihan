@@ -1,0 +1,220 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    margin: px;
+    padding: px;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;     
+    background-repeat: no-repeat;
+    background-size:2000px;
+    background-position: center;
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+}
+
+
+.wrapper {
+    font-family: 'Times New Roman', Times, serif;
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 550;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-stiky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border:1px solid #364F6B
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #252121;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #364F6B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #3F72AF;
+    text-decoration: none;
+}
+
+a.tbl-merah {
+    background: #364F6B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: #3F72AF;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+ .tengah {
+     text-align: center;
+     width: 100%;
+ }
+
+ #contact {
+    background: #b6a3a39f;
+    padding:35px 0px 35px 0px;
+    display:flex;
+    justify-content: center ;
+ }
+
+.sosmed {
+    margin-left: 10px;;
+    text-align: center;
+}
+
+.sosmed a img {
+    text-align: center;
+}
+
+.footer-section {
+    display: flex;
+    margin: 0 auto;
+}
+
+ h3 {
+    font-family: 'comic sans ms';
+    font-weight:800;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #2b2b2b;
+    width: 100%;
+ }
+
+ #copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+ }
+
+ .footer-section img {
+    border-radius: 43px;
+    margin-right: 50px;
+ }
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 50%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 80px;
+    }
+
+    nav .menu ul li {
+        display: inline;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+    .kartu-tutor {
+        width: 50%;
+    }
+}
